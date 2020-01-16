@@ -9,3 +9,6 @@ scipy>=0.15.1
 scikit-learn>=0.18
 matplotlib>=1.4.3
 pandas>=0.19
+keras>=2.2.5
+Pillow>=7.0.0
+Tensorflow>=2.0.0
