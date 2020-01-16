@@ -1,0 +1,1 @@
+web: gunicorn spam_detector_api:app
