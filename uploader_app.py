@@ -4,13 +4,10 @@ import os
 from keras.preprocessing import image
 from keras.models import load_model
 import numpy as np
-import tensorflow as tf
 
 app = Flask(__name__)
 
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))
-
-graph = tf.get_default_graph()
 
 @app.route('/')
 def index():
