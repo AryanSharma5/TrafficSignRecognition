@@ -4,12 +4,12 @@ Traffic signs are an integral part of our road infrastructure. Traffic signs are
 
 You all must have heard about the self-driving cars in which the passengers can fully depend on the car for travelling. But to achieve level 5 autonomous, it is necessary for vehicles to understand and follow traffic rules. With the development of automative intelligent technology famous car companies, such as BMW, Mercedes-Benz, Audi are investing on ADAS(Advanced Driver Assistance System) research. ADAS includes TRS(Traffic Recognition System) along with some other advanced traffic assistance systems.
 
-What is Traffic Sign Recognition ?
+# what is traffic sign recognition ?
+
 Traffic sign recognition is a process of classifying a traffic sign into different categories. Traffic-sign recognition (TSR) is a technology by which a vehicle is able to recognize the traffic signs put on the road e.g. "speed limit" or "children" or "turn ahead". This is part of the features collectively called ADAS. The technology is being developed by a variety of automotive suppliers. It uses image processing techniques to detect the traffic signs. The detection methods can be generally divided into color based, shape based and learning based methods.
 
-Refer the wikipedia link for full description : Traffic Sign Recognition
+# About Dataset
 
-About Dataset
 The Dataset contains about 39210 image links of different traffic signs in Train.csv. The given images can be classified into 43 different classes. The given Dataset is little bit imbalanced some of the classes have many images while some classes have few images. The size of the dataset is 300MB. The dataset has a train folder which contains images inside each class and a test folder for testing the developed model.
 
 There are 43 Different categories that are present in the dataset like no entry, speed limit, children crossing, etc. This web app can detect traffic signs in the uploaded image and can classify into different categories.
@@ -59,7 +59,9 @@ Roundabout mandatory
 End Of No Passing
 End No Passing Veh > 3.5 tons
 Dataset link :Traffic Signs Dataset Kaggle
-About Model
+
+# About Model
+
 A CNN(Convolutional Neural Network) model is trained on the dataset, as CNN is best suited for image classification related tasks.
 
 Following is the architecture of the CNN model :
