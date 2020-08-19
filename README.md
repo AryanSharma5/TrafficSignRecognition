@@ -1,3 +1,6 @@
+<img width = 500 src = "https://media.giphy.com/media/cJMYQ1L9py1WhQsYBt/giphy.gif">
+<br>
+
 # TrafficSignRecognition
 
 Traffic signs are an integral part of our road infrastructure. Traffic signs are road facilites that convey, guide, restrict, warn or instruct information using words or symbols. Traffic sign recognition plays an important role in expert systems such as traffic assistance driving systems and automatic driving systems.
